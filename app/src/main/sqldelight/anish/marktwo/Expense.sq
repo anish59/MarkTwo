@@ -1,0 +1,6 @@
+CREATE TABLE Expense (
+    eid	INTEGER NOT NULL PRIMARY KEY,
+    bid	INTEGER,
+    spendOn	TEXT,
+    amount INTEGER
+);

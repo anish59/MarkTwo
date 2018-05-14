@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MarkTwo</string>
+    <string name="amount">3000 Rs</string>
+    <string name="july">July-2017</string>
+    <string name="budget">Budget</string>
+    <string name="spend_on">Spend On: Shoes</string>
+    <string name="expense">expense: 200 Rs</string>
 </resources>

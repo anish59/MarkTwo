@@ -1,0 +1,12 @@
+CREATE TABLE Budget (
+    bid	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    month INTEGER,
+    amount INTEGER
+);
+
+select_all_budget:
+select * from Budget order by bid desc;
+
+insert_In_Budget:
+INSERT INTO Budget(month, amount) VALUES (?, ?);
+
